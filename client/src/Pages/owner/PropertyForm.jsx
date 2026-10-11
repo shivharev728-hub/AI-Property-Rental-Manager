@@ -3,7 +3,7 @@ import { FiHome, FiMapPin, FiTag, FiImage, FiX, FiZap } from "react-icons/fi";
 import { useParams, useNavigate } from "react-router-dom";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import api, { imageUrl } from "../../services/api";
+import api, { imageUrl } from "../Services/api";
 import Navbar from "../../components/Navbar";
 
 const PropertyForm = () => {

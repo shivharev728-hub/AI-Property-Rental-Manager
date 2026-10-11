@@ -1,7 +1,7 @@
 import { FiMapPin, FiClock, FiCheckCircle, FiXCircle } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import api from "../../services/api";
+import api from "../Services/api";
 import Navbar from "../../components/Navbar";
 
 const statusStyles = {

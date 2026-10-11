@@ -10,8 +10,8 @@ import {
 
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import api from "../../services/api";
-import { imageUrl } from "../../services/api";
+import api from "../Services/api";
+import { imageUrl } from "../Services/api";
 import Navbar from "../../components/Navbar";
 
 const Properties = () => {
