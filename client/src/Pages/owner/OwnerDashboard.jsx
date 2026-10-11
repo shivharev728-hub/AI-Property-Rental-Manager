@@ -10,7 +10,7 @@ import {
 } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import api from "../Services/api";
-import Navbar from "../../components/Navbar";
+import Navbar from "../Components/Navbar";
 
 const OwnerDashboard = () => {
   const [name, setName] = useState("");

@@ -2,7 +2,7 @@ import { FiEdit2, FiTrash2 } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import api from "../Services/api";
-import Navbar from "../../components/Navbar";
+import Navbar from "../Components/Navbar";
 
 const emptyForm = { categoryName: "", description: "", status: "active" };
 

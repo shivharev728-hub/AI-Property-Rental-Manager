@@ -2,7 +2,7 @@ import { FiHome, FiMapPin, FiUser } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import api, { imageUrl } from "../Services/api";
-import Navbar from "../../components/Navbar";
+import Navbar from "../Components/Navbar";
 
 const statusStyles = {
   available: "bg-emerald-500/10 text-emerald-400",

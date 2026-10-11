@@ -3,7 +3,7 @@ import { FiMapPin, FiHome, FiZap } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import api, { imageUrl } from "../Services/api";
-import Navbar from "../../components/Navbar";
+import Navbar from "../Components/Navbar";
 
 const Recommended = () => {
   const [properties, setProperties] = useState([]);

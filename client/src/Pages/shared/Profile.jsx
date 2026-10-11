@@ -10,7 +10,7 @@ import { useState, useEffect } from "react";
 import { useNavigate } from "react-router-dom";
 import { toast } from "react-toastify";
 import api, { imageUrl } from "../Services/api";
-import Navbar from "../../components/Navbar";
+import Navbar from "../Components/Navbar";
 
 const Profile = () => {
   const navigate = useNavigate();

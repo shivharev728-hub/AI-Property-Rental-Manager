@@ -2,7 +2,7 @@ import { FiUser, FiTrash2 } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
 import api, { imageUrl } from "../Services/api";
-import Navbar from "../../components/Navbar";
+import Navbar from "../Components/Navbar";
 
 const roleStyles = {
   user: "bg-sky-500/10 text-sky-400",
