@@ -1,8 +1,8 @@
 import { FiUsers, FiHome, FiGrid, FiFileText } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import api from "../Services/api";
-import Navbar from "../Components/Navbar";
+import api from "../../Services/api";
+import Navbar from "../../Components/Navbar";
 
 const AdminDashboard = () => {
   const [stats, setStats] = useState(null);

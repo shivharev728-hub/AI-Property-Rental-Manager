@@ -10,9 +10,9 @@ import {
 
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import api from "../Services/api";
-import { imageUrl } from "../Services/api";
-import Navbar from "../Components/Navbar";
+import api from "../../Services/api";
+import { imageUrl } from "../../Services/api";
+import Navbar from "../../Components/Navbar";
 
 const Properties = () => {
   const [properties, setProperties] = useState([]);

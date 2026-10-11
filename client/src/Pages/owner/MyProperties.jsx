@@ -2,8 +2,8 @@ import { Link } from "react-router-dom";
 import { FiMapPin, FiHome, FiEdit2, FiTrash2, FiPlus } from "react-icons/fi";
 import { useState, useEffect } from "react";
 import { toast } from "react-toastify";
-import api, { imageUrl } from "../Services/api";
-import Navbar from "../Components/Navbar";
+import api, { imageUrl } from "../../Services/api";
+import Navbar from "../../Components/Navbar";
 
 const statusStyles = {
   available: "bg-emerald-500/10 text-emerald-400",
