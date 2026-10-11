@@ -1,7 +1,7 @@
 const ai = require("../config/gemini");
 const PropertyModel = require("../models/PropertyModel");
 const RentalReqModel = require("../models/rentalRequestModel");
-const { isValid, isValidObjectId } = require("../utils/validator");
+const { isValid, isValidObjectId } = require("../utils/Validator");
 
 const MODEL_NAME = "gemini-3.6-flash";
 

@@ -9,7 +9,7 @@ const {
   isValidPassword,
   isValidPhone,
   isValidObjectId,
-} = require("../utils/validator");
+} = require("../utils/Validator");
 
 // Signup
 const signup = async (req, res) => {

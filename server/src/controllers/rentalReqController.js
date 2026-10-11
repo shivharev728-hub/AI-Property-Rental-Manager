@@ -1,6 +1,6 @@
 const RentalRequestModel = require("../models/rentalRequestModel");
 const PropertyModel = require("../models/PropertyModel");
-const { isValid, isValidObjectId } = require("../utils/validator");
+const { isValid, isValidObjectId } = require("../utils/Validator");
 
 // Send Rental Request (User)
 const sendRentalRequest = async (req, res) => {

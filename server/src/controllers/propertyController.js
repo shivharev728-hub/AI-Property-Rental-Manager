@@ -1,7 +1,7 @@
 const PropertyModel = require("../models/PropertyModel");
 const CategoryModel = require("../models/categoryModel");
 
-const { isValid, isValidObjectId } = require("../utils/validator");
+const { isValid, isValidObjectId } = require("../utils/Validator");
 
 // Add Property (Owner)
 const addProperty = async (req, res) => {

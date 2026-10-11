@@ -4,7 +4,7 @@ const {
   isValid,
   isValidCategoryName,
   isValidObjectId,
-} = require("../utils/validator");
+} = require("../utils/Validator");
 
 // Add Category (Admin)
 const addCategory = async (req, res) => {
