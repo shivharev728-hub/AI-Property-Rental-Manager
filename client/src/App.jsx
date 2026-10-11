@@ -1,30 +1,30 @@
 import { Routes, Route } from "react-router-dom";
-import Login from "./pages/auth/Login";
-import Register from "./pages/auth/Signup";
+import Login from "./Pages/auth/Login";
+import Register from "./Pages/auth/Signup";
 
 import ProtectedRoute from "./routes/ProtectedRoute";
 import UserRoute from "./routes/UserRoute";
 import OwnerRoute from "./routes/OwnerRoute";
 import AdminRoute from "./routes/AdminRoute";
 
-import UserDashboard from "./pages/user/Dashboard";
-import MyRequests from "./pages/user/MyRequests";
-import Properties from "./pages/user/Properties";
-import PropertyDetails from "./pages/user/PropertyDetails";
-import Recommended from "./pages/user/Recommended";
+import UserDashboard from "./Pages/user/Dashboard";
+import MyRequests from "./Pages/user/MyRequests";
+import Properties from "./Pages/user/Properties";
+import PropertyDetails from "./Pages/user/PropertyDetails";
+import Recommended from "./Pages/user/Recommended";
 
-import OwnerDashboard from "./pages/owner/OwnerDashboard";
-import MyProperties from "./pages/owner/MyProperties";
-import PropertyForm from "./pages/owner/PropertyForm";
-import Requests from "./pages/owner/Requests";
+import OwnerDashboard from "./Pages/owner/OwnerDashboard";
+import MyProperties from "./Pages/owner/MyProperties";
+import PropertyForm from "./Pages/owner/PropertyForm";
+import Requests from "./Pages/owner/Requests";
 
-import AdminDashboard from "./pages/admin/AdminDashboard";
-import AdminUsers from "./pages/admin/Users";
-import AdminProperties from "./pages/admin/Properties";
-import Analytics from "./pages/admin/Analytics";
-import AdminCategories from "./pages/admin/Categories";
+import AdminDashboard from "./Pages/admin/AdminDashboard";
+import AdminUsers from "./Pages/admin/Users";
+import AdminProperties from "./Pages/admin/Properties";
+import Analytics from "./Pages/admin/Analytics";
+import AdminCategories from "./Pages/admin/Categories";
 
-import Profile from "./pages/shared/Profile";
+import Profile from "./Pages/shared/Profile";
 
 const App = () => {
   return (
