@@ -2,10 +2,10 @@ import { Routes, Route } from "react-router-dom";
 import Login from "./Pages/auth/Login";
 import Register from "./Pages/auth/Signup";
 
-import ProtectedRoute from "./routes/ProtectedRoute";
-import UserRoute from "./routes/UserRoute";
-import OwnerRoute from "./routes/OwnerRoute";
-import AdminRoute from "./routes/AdminRoute";
+import ProtectedRoute from "./Routes/ProtectedRoute";
+import UserRoute from "./Routes/UserRoute";
+import OwnerRoute from "./Routes/OwnerRoute";
+import AdminRoute from "./Routes/AdminRoute";
 
 import UserDashboard from "./Pages/user/Dashboard";
 import MyRequests from "./Pages/user/MyRequests";
